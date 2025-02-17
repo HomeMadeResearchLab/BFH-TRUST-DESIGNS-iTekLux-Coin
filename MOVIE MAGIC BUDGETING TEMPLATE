@@ -1,0 +1,27 @@
+import os
+import csv  # Import CSV module for file operations
+
+# Step 1: Print the current working directory
+print(f"Current working directory is: {os.getcwd()}")
+
+# Step 2: Define the filename
+filename = "catering_budget_template.csv"
+print(f"File will be created as: {filename}")
+
+# Step 3: Prepare data for the CSV file
+data = [
+    ["Item", "Description", "Cost"],
+    ["Venue", "Rental space", "1000"],
+    ["Catering", "Food and drinks", "1500"],
+    ["Entertainment", "DJ and lighting", "800"]
+]
+print(f"Data prepared for the CSV: {data}")
+
+# Step 4: Write data to the CSV file
+try:
+    with open(filename, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(data)
+        print(f"File '{filename}' created successfully.")
+except Exception as e:
+    print(f"An error occurred while writing the file: {e}")
