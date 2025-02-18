@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BFH-TRUST-DESIGNS-iTekLux-Coin/static/css/main.e6c13ad2.css",
+    "main.js": "/BFH-TRUST-DESIGNS-iTekLux-Coin/static/js/main.23a14bce.js",
+    "static/js/453.ed3810f9.chunk.js": "/BFH-TRUST-DESIGNS-iTekLux-Coin/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/BFH-TRUST-DESIGNS-iTekLux-Coin/index.html",
+    "main.e6c13ad2.css.map": "/BFH-TRUST-DESIGNS-iTekLux-Coin/static/css/main.e6c13ad2.css.map",
+    "main.23a14bce.js.map": "/BFH-TRUST-DESIGNS-iTekLux-Coin/static/js/main.23a14bce.js.map",
+    "453.ed3810f9.chunk.js.map": "/BFH-TRUST-DESIGNS-iTekLux-Coin/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.23a14bce.js"
+  ]
+}
