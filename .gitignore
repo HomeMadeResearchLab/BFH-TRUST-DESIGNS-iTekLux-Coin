@@ -26,6 +26,6 @@ yarn-debug.log*
 yarn-error.log*
 
 node_modules/
-node_modules/
+build/
+.env
 package-lock.json
- 556d8f23 (Updated .gitignore to ignore node_modules and package-lock.json)
