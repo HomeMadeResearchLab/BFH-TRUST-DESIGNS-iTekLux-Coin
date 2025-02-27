@@ -27,4 +27,8 @@ node_modules/
 dist/
 .env
 build/
+<<<<<<< HEAD
  6ce1c0bd (Created new .gitignore file)
+=======
+node_modules
+>>>>>>> 6c3484a3 (Fix: Locked dependencies and cleaned temp files)
